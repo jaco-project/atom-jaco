@@ -1,0 +1,24 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+    '.overlayer':
+        'hiraganize - ひらがな変換': 'jaco:hiraganize'
+        'katakanize - カタカナ変換': 'jaco:katakanize'
+
+'menu': [
+    {
+        'label': 'Packages'
+        'submenu': [
+            'label': 'Jaco'
+            'submenu': [
+                {
+                    'label': 'hiraganize - ひらがな変換'
+                    'command': 'jaco:hiraganize'
+                }
+                {
+                    'label': 'katakanize - カタカナ変換'
+                    'command': 'jaco:katakanize'
+                }
+            ]
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "atom-jaco",
+  "main": "./lib/jaco",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Japanese string and charactor converter.",
+  "activationEvents": [
+    "jaco:hiraganize",
+    "jaco:katakanize"
+  ],
+  "repository": "https://github.com/YusukeHirao/atom-jaco",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.86.0"
+  },
+  "dependencies": {
+    "jaco": "^0.1.1"
+  }
+}
