@@ -6,3 +6,5 @@ Japanese string and charactor converter.
 
 - **hiraganize** ひらがな変換
 - **katakanize** カタカナ変換
+
+![usage](https://raw.githubusercontent.com/YusukeHirao/atom-jaco/master/captcha.gif)
