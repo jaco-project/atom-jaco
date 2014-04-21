@@ -1,7 +1,7 @@
 {
   "name": "atom-jaco",
   "main": "./lib/jaco",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Japanese string and charactor converter.",
   "activationEvents": [
